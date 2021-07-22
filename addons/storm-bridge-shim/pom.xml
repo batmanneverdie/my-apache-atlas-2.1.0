@@ -30,6 +30,19 @@
     <name>Apache Atlas Storm Bridge Shim</name>
     <packaging>jar</packaging>
 
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>clojars</id>
+            <url>https://clojars.org/repo/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- Logging -->
         <dependency>
